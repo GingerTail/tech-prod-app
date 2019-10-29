@@ -1,0 +1,21 @@
+#introduction{
+    padding-top:2rem;
+    padding-bottom:4rem;
+    color: #eee;
+    background-color: rgb(75, 75, 75);
+    border-top: 4px solid rgba(0, 0, 0, 0.438);
+}
+.fa-4x{
+    margin-bottom:1.5rem;
+    color: #17a2b8;
+}
+.intro-card{
+    padding:1rem;
+    background-color: #eee;
+    color: black;
+    border-radius:4px;
+    border:1px solid #17a2b8;
+    box-shadow: 0px 5px 7px -4px rgba(0,0,0,0.41);
+    margin-bottom:2rem;
+    margin-right:2rem
+}

@@ -1,0 +1,22 @@
+.jumbotron{
+    background-image: url("https://wallpaperaccess.com/full/313290.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:7rem 2rem;
+    border-radius:0px;
+    color:#eee;
+    height: 650px;
+    margin-bottom:0px;
+    border-image: linear-gradient(90deg, rgba(35,47,68,1) 0%, rgba(45,158,176,1) 50%, rgba(35,47,68,1) 100%);
+      border-image-slice: 1;
+      border-bottom: 8px solid transparent;
+      
+}
+
+.jumbotron p{
+    font-size: 1rem;
+}
+.jumbotron h5{
+    font-size: 2.5em;
+}

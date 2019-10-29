@@ -1,0 +1,19 @@
+.description-container{
+    background-color: rgb(97, 97, 97);
+    color: #eee;
+    border-image: linear-gradient(90deg, rgba(35,47,68,1) 0%, rgba(45,158,176,1) 50%, rgba(35,47,68,1) 100%);
+    border-image-slice: 1;
+    border-top: 8px solid transparent;
+}
+
+.left-description{
+    background-image: url("https://www.cmo.com/content/dam/CMO_Other/articles/1046x616_digital_eye.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.description-intro{
+    padding: 1rem;
+    margin-top:6.5rem;   
+    background-color: rgba(0, 0, 0, 0.425);
+    border-radius:0px;
+}
