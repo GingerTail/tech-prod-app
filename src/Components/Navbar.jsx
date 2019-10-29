@@ -12,6 +12,7 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 import "../stylesheet/navbar.css"
+import logo from "../logo-tech.png"
 
 const Appbar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,33 +22,19 @@ const Appbar = (props) => {
   return (
     <div>
       <Navbar className="fixed-top" expand="md">
-        <NavbarBrand className="ml-5" href="/">reactstrap</NavbarBrand>
+        <NavbarBrand href="/"><img src={logo} width="95px"/></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="https://www.linkedin.com/in/luca-sorace-772004178/" target="_blank">Linkedin</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavLink href="https://github.com/reactstrap/reactstrap" target="_blank">GitHub</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href="">Sign Up</NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

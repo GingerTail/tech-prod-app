@@ -2,6 +2,12 @@
     background-color:black
 }
 
+.navbar-brand{
+    margin-left: 10rem
+}
 .nav-link{
     color:white
+}
+.nav-link:hover{
+    color:#128496;
 }
