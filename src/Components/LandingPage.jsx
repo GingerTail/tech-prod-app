@@ -10,6 +10,7 @@ import Information from "./Information";
 import Description from "./Description";
 import SubmitForm from "./SubmitForm";
 import Footer from "./Footer";  
+import Thankyou from "./Thankyou";
 
 library.add(fas, fab, faFacebook)
 
@@ -19,13 +20,14 @@ export default class LandingPage extends Component{
     render(){
         return(
             <>
-            <Navbar/>
+           <Navbar/>
             <JumbHeader/>
             <Information/>
             <Introduction/>
             <Description/>
             <SubmitForm/>
-            <Footer/>
+            <Footer/> 
+           {/*  <Thankyou/> */}
             </>
 
         )

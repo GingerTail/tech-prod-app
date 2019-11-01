@@ -18,20 +18,20 @@ export default class Description extends Component{
                     <div className="col-sm-8 pt-5 pb-5">
                         <h1>How it works</h1>
                         <div className="row mt-5"> 
-                    <div className="col-sm-4">
+                    <div className="col-md-6">
                    <h5><Badge color="info">1</Badge> Step One </h5>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia placeat earum ullam officiis quasi cum odio id incidunt ex facilis!</p>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-md-6">
                    <h5><Badge color="info">2</Badge> Step Two </h5>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia placeat earum ullam officiis quasi cum odio id incidunt ex facilis!</p>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-md-6">
                    <h5><Badge color="info">3</Badge> Step Three </h5>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia placeat earum ullam officiis quasi cum odio id incidunt ex facilis!</p>
                     </div>
-                    <div className="col-sm-4">
-                   <h5><Badge color="info">3</Badge> Step Three </h5>
+                    <div className="col-md-6">
+                   <h5><Badge color="info">4</Badge> Step Four </h5>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia placeat earum ullam officiis quasi cum odio id incidunt ex facilis!</p>
                     </div>
                         </div>

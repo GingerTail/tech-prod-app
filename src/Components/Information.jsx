@@ -16,11 +16,11 @@ export default class Information extends Component{
                 <img src="http://www.comune.torino.it/pass/informadisabile/files/2017/10/network-web-generic-02.png" className="img-fluid img-info"/>
                     </div>
                     </div>
-                    <div className="col-sm-7">
+                    <div className="col-sm-7 mt-4 mt-md-0">
                     <div className="cust-toast">
                     <FontAwesomeIcon icon="user" size="2x" />
                     <div className="info-text d-inline">
-                        <h3>Subtitle 2</h3>
+                        <h3>Subtitle 1</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe rerum eum qui incidunt facere consequatur ab amet fugit assumenda?</p>
                     </div>
                     </div>
@@ -34,7 +34,7 @@ export default class Information extends Component{
                     <div className="cust-toast">
                          <FontAwesomeIcon icon="phone-alt" size="2x" />
                          <div className="info-text d-inline">
-                        <h3>Subtitle 2</h3>
+                        <h3>Subtitle 3</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe rerum eum qui incidunt facere consequatur ab amet fugit assumenda?</p>
                     </div>
                     </div>

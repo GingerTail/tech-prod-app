@@ -1,0 +1,23 @@
+.thank-container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 6rem;
+    border-radius:4px;
+    color:#eee;
+    border:1px solid #0e6977;
+}
+.thank-container h2{
+    color:#17a2b8;
+    margin-bottom: 2rem;
+}
+.thank-container a{
+    color:#107b8b;
+}
+.thank-container a:hover{
+    color: #17a2b8;
+    text-decoration: none;
+}

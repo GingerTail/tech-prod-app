@@ -11,12 +11,18 @@ export default class Footer extends Component{
                 <div className="row">
                     <div className="col-12">
                         <div className="footer text-center">
-                            <p>Follow us on:</p>
+                            <p><strong>Follow us on:</strong></p>
+                            <a href="https://www.linkedin.com/in/luca-sorace-772004178/" target="_blank">
                             <FontAwesomeIcon className="mr-3" icon={["fab", "facebook"]} size="2x" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/luca-sorace-772004178/" target="_blank">
                             <FontAwesomeIcon className="mr-3" icon={["fab", "linkedin-in"]} size="2x" />
+                            </a>
+                           <a href="https://github.com/reactstrap/reactstrap" target="_blank">
                             <FontAwesomeIcon  icon={["fab", "github"]} size="2x" />
+                           </a>
                             <div className="mt-3">
-                            <h5>Contact</h5>
+                            <h5><strong>Contact</strong></h5>
                             <p><strong>Email: </strong> Sorace.lc@gmail.com<br/>
                             <strong>Mobile: </strong> xxx-xxx-xxx</p>
                             </div>

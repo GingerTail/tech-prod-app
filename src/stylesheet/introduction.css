@@ -4,6 +4,7 @@
     color: #eee;
     background-color: rgb(75, 75, 75);
     border-top: 4px solid rgba(0, 0, 0, 0.438);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.438);
 }
 .fa-4x{
     margin-bottom:1.5rem;

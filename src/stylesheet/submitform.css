@@ -2,7 +2,7 @@
     background-color: rgb(34, 34, 34);
     border-image: linear-gradient(90deg, rgba(35,47,68,1) 0%, rgba(45,158,176,1) 50%, rgba(35,47,68,1) 100%);
     border-image-slice: 1;
-    border-top: 8px solid transparent;
+    border-bottom: 3px solid transparent;
     color: #eee;
     padding-bottom:5rem;
     padding-top:4rem;
@@ -12,6 +12,9 @@
     margin: 0 auto;
     margin-top:2rem;
     max-width: 500px;
+}
+.input-email h3{
+    color:#17a2b8;
 }
 .input-group-prepend {
     background-color: #eee;

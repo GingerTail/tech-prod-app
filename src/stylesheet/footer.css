@@ -7,3 +7,12 @@
 .footer{
     color:#eee
 }
+
+.footer a{
+    color: #eee;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color: grey;
+}

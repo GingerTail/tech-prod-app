@@ -9,8 +9,8 @@ export default class Introduction extends Component{
         return(
             <>
             <div className="container-fluid mt-4" id="introduction">
-                <div className="text-center mb-5">
-            <h1>INTRODUCTION</h1>
+                <div className="text-center mb-4">
+            <h2>INTRODUCTION</h2>
                 </div>
                 <div className="row">
                     <div className="col-sm-4 text-center">
